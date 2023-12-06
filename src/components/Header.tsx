@@ -1,5 +1,7 @@
+// ========== components ========== \\
 import SearchIcon from "./Icons/Search"
-const Header:React.FC = () => {
+
+const Header:React.FC = ():JSX.Element => {
   return (
     <header className="flex h-[100px] items-center px-20">
         <div className="justify-self-start cursor-pointer font-RubikBubbles text-2xl">Carzz</div>

@@ -1,5 +1,4 @@
-
-const SearchIcon = () => {
+const SearchIcon:React.FC = ():JSX.Element => {
   return (
     <svg
         width="30"

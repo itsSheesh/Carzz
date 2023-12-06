@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        RubikBubbles : ['Rubik Bubbles']
+        RubikBubbles : ['Rubik Bubbles'],
+        Poppins : ['Poppins']
       }
     },
   },

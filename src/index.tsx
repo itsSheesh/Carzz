@@ -1,16 +1,20 @@
-import React from 'react';
+// ========== packages ========== \\
 import ReactDOM from 'react-dom/client';
+
+// ========== styles ========== \\
 import './index.css';
-import App from './App';
+
+// ========== components ========== \\
 import Header from './components/Header'
+import App from './App';
 
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
+  <main className='font-Poppins'>
     <Header/>
     <App />
-  </React.StrictMode>
+  </main>
 );
