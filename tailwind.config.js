@@ -6,11 +6,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        RubikBubbles : ['Rubik Bubbles'],
-        Poppins : ['Poppins']
-      }
+        Poppins : ['Poppins'],
+        RubikBubbles : ['Rubik Bubbles']
     },
   },
   plugins: [],
+}
 }
 
