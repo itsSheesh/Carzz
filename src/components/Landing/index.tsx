@@ -5,12 +5,10 @@ import ModelsNav from '../ModelsNav'
 
 const Landing:React.FC = ():JSX.Element => {
   return (
-    <main className="bg-[#684FAE]">
-        <div className="text-center">
-          <ModelsNav />
-          <Carousel />
-          <Details />
-        </div>
+    <main className="bg-[#684FAE] h-[85%] flex flex-col justify-between">
+        <ModelsNav />
+        <Carousel />
+        <Details />
     </main>
   )
 }
