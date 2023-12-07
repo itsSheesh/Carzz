@@ -1,7 +1,6 @@
-
 const Footer:React.FC = ():JSX.Element => {
   return (
-    <div className="text-center mb-3 absolute bottom-0 left-1/2 -translate-x-1/2">Created with &hearts; by 
+    <div className="text-center mb-1 absolute bottom-0 left-1/2 -translate-x-1/2">Created with &hearts; by 
         <a
             className="font-bold"
             href="https://github.com/itsSheesh"
@@ -9,7 +8,7 @@ const Footer:React.FC = ():JSX.Element => {
         &
         <a
             className="font-bold"
-            href="https://github.com/itsSheesh"
+            href="https://github.com/farshadhosseini"
             target="blank"> farshad</a>
     </div>
     

@@ -1,7 +1,6 @@
-
 const Header:React.FC = ():JSX.Element => {
   return (
-    <header className="flex h-[100px] items-center px-20 justify-between">
+    <header className="flex h-[100px] items-center px-20 justify-between bg-[#916CF880]">
         <div className="cursor-pointer font-RubikBubbles text-2xl">Carzz</div>
         <div className="">
           <input

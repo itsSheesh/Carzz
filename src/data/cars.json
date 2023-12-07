@@ -19,23 +19,23 @@
         "weight" : 1549
     },
     {
-        "companyName" : "",
-        "carName" : "",
-        "carModel": "",
-        "nationality" : "",
+        "companyName" : "Toyota",
+        "carName" : "Supra",
+        "carModel": "mk5",
+        "nationality" : "Japan",
         "description" : "",
-        "productYear" : 22,
-        "horsePower" : 333,
-        "torqe" : 315,
-        "transmission" : "",
-        "topSpeed" : 350,
-        "engine" : "",
+        "productYear" : 2020,
+        "horsePower" : 340,
+        "torqe" : 329,
+        "transmission" : "8-speed",
+        "topSpeed" : 262,
+        "engine" : "B48",
         "size" : {
-            "width" : 222,
-            "height" : 222,
-            "lenght" : 333
+            "width" : 1865,
+            "height" : 1290,
+            "lenght" : 4380
         },
-        "weight" : 888
+        "weight" : 1490
     },
     {
         "companyName" : "",
