@@ -8,8 +8,8 @@ const SearchIcon:React.FC = ():JSX.Element => {
         xmlns="http://www.w3.org/2000/svg"
         >
         <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M66.8103
             37.3103C66.8103 53.3076 53.842 66.2759 37.8448
             66.2759C21.8476 66.2759 8.87931 53.3076 8.87931
