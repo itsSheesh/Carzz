@@ -1,10 +1,14 @@
 // ========== packages ========== \\
 import React, { ReactNode } from "react"
+import Header from "../components/Layout/Header"
+import Footer from "../components/Layout/Footer"
 
 const MainLayout: React.FC<{ children: ReactNode}> = ( { children } ) => {
   return (
     <main className="h-screen">
-        {children}
+        <Header />
+          {children}
+        <Footer />
     </main>
   )
 }

@@ -1,6 +1,6 @@
 // ========== components ========== \\
-import MoreinfoButton from "../MoreinfoButton"
-import GDetails from "../GDetails"
+import MoreinfoButton from "../Common/MoreinfoButton"
+import GDetails from "../GeneralDetails"
 
 const Datails:React.FC = ():JSX.Element => {
   return (

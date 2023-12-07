@@ -1,24 +1,7 @@
 [
     {
-        "companyName" : "Toyota",
-        "carName" : "Supra",
-        "carModel": "mk4",
-        "nationality" : "Japan",
-        "description" : "",
-        "productYear" : 1984,
-        "horsePower" : 321,
-        "torqe" : 441,
-        "transmission" : "6-speed",
-        "topSpeed" : 300,
-        "engine" : "3L 2JZ-GTE",
-        "size" : {
-            "width" : 1745,
-            "height" : 1300,
-            "lenght" : 4620
-        },
-        "weight" : 1549
-    },
-    {
+        "brand_id": 1,
+        "model_id": 3,
         "companyName" : "Toyota",
         "carName" : "Supra",
         "carModel": "mk5",

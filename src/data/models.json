@@ -1,0 +1,17 @@
+[
+    {
+        "brand_id": 1,
+        "models": [
+            {"id": 1, "name": "M1"},
+            {"id": 2, "name": "M2"},
+            {"id": 3, "name": "M3"}
+        ]
+    },
+    {
+        "brand_id": 2,
+        "models": [
+            {"id": 1, "name": "M1"},
+            {"id": 2, "name": "M2"}
+        ]
+    } 
+]
