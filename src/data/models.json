@@ -171,7 +171,7 @@
         "models": [
             {
                 "id": 1,
-                "name": "taycan"
+                "name": "Taycan"
             },
             {
                 "id": 2,
@@ -279,12 +279,12 @@
                 "name": "Veyron"
             },
             {
-                "id": 13,
+                "id": 3,
                 "name": "Divo"
             },
             {
                 "id" : 4,
-                "name": "La voire Noire"
+                "name": "La Voire Noire"
             }
         ]
     },

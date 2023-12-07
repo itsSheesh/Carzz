@@ -2,14 +2,54 @@
     "car" : [
         {
             "brand_id": 1,
-            "model_id": 3,
-            "companyName" : "Toyota",
-            "carName" : "Supra",
-            "carModel": "mk5",
-            "nationality" : "Japan",
+            "model_id": 1,
+            "name" : "Supra",
+            "model": "mk5",
+            "country" : "Japan",
             "description" : "",
-            "productYear" : 2020,
-            "horsePower" : 340,
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 500,
+            "transmission" : "8-speed",
+            "topSpeed" : 270,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 1,
+            "model_id": 2,
+            "name" : "LandCruiser",
+            "model": "J300",
+            "country" : "Japan",
+            "description" : "",
+            "year" : 2021,
+            "hp" : 415,
+            "torqe" : 650,
+            "transmission" : "6-speed",
+            "topSpeed" : 200,
+            "engine" : "3.5i V6",
+            "size" : {
+                "width" : 1980,
+                "height" : 1925,
+                "lenght" : 4950
+            },
+            "weight" : 2360
+        },
+        {"finished" : "true"},
+        {
+            "brand_id": 1,
+            "model_id": 3,
+            "name" : "Rav4",
+            "model": "2023",
+            "country" : "Japan",
+            "description" : "",
+            "year" : 2023,
+            "hp" : 340,
             "torqe" : 329,
             "transmission" : "8-speed",
             "topSpeed" : 262,
@@ -22,62 +62,1284 @@
             "weight" : 1490
         },
         {
-            "companyName" : "",
-            "carName" : "",
-            "carModel": "",
-            "nationality" : "",
+            "brand_id": 1,
+            "model_id": 4,
+            "name" : "Hilux",
+            "model": "2023",
+            "country" : "Japan",
             "description" : "",
-            "productYear" : 22,
-            "horsePower" : 333,
-            "torqe" : 315,
-            "transmission" : "",
-            "topSpeed" : 350,
-            "engine" : "",
+            "year" : 2023,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
             "size" : {
-                "width" : 222,
-                "height" : 222,
-                "lenght" : 333
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
             },
-            "weight" : 888
+            "weight" : 1490
         },
         {
-            "companyName" : "",
-            "carName" : "",
-            "carModel": "",
-            "nationality" : "",
+            "brand_id": 2,
+            "model_id": 1,
+            "name" : "GT-R",
+            "model": "R-34",
+            "country" : "Japan",
             "description" : "",
-            "productYear" : 22,
-            "horsePower" : 333,
-            "torqe" : 315,
-            "transmission" : "",
-            "topSpeed" : 350,
-            "engine" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
             "size" : {
-                "width" : 222,
-                "height" : 222,
-                "lenght" : 333
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
             },
-            "weight" : 888
+            "weight" : 1490
         },
         {
-            "companyName" : "",
-            "carName" : "",
-            "carModel": "",
-            "nationality" : "",
+            "brand_id": 2,
+            "model_id": 2,
+            "name" : "Maxima",
+            "model": "",
+            "country" : "Japan",
             "description" : "",
-            "productYear" : 22,
-            "horsePower" : 333,
-            "torqe" : 315,
-            "transmission" : "",
-            "topSpeed" : 350,
-            "engine" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
             "size" : {
-                "width" : 222,
-                "height" : 222,
-                "lenght" : 333
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
             },
-            "weight" : 888
+            "weight" : 1490
+        },
+        {
+            "brand_id": 3,
+            "model_id": 1,
+            "name" : "LX",
+            "model": "",
+            "country" : "Japan",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 3,
+            "model_id": 2,
+            "name" : "ES",
+            "model": "",
+            "country" : "Japan",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 4,
+            "model_id": 1,
+            "name" : "Civic",
+            "model": "",
+            "country" : "Japan",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 4,
+            "model_id": 2,
+            "name" : "Accord",
+            "model": "",
+            "country" : "Japan",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 5,
+            "model_id": 1,
+            "name" : "X6",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 5,
+            "model_id": 2,
+            "name" : "M8",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 5,
+            "model_id": 3,
+            "name" : "I8",
+            "model": "mk5",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 5,
+            "model_id": 4,
+            "name" : "Z4",
+            "model": "mk5",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 6,
+            "model_id": 1,
+            "name" : "SLS-class",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 6,
+            "model_id": 2,
+            "name" : "CLS-class",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 6,
+            "model_id": 3,
+            "name" : "S-class",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 6,
+            "model_id": 4,
+            "name" : "C-class",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 6,
+            "model_id": 5,
+            "name" : "G-class",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 7,
+            "model_id": 1,
+            "name" : "2008",
+            "model": "",
+            "country" : "France",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 7,
+            "model_id": 2,
+            "name" : "405",
+            "model": "",
+            "country" : "France",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 7,
+            "model_id": 3,
+            "name" : "207",
+            "model": "",
+            "country" : "France",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 7,
+            "model_id": 4,
+            "name" : "Pars",
+            "model": "",
+            "country" : "France",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 8,
+            "model_id": 1,
+            "name" : "Aventador",
+            "model": "",
+            "country" : "Itali",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 8,
+            "model_id": 2,
+            "name" : "Huracan",
+            "model": "",
+            "country" : "Itali",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 9,
+            "model_id": 1,
+            "name" : "Tiguan",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 9,
+            "model_id": 2,
+            "name" : "Golf",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 10,
+            "model_id": 1,
+            "name" : "Camaro",
+            "model": "",
+            "country" : "USA",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 10,
+            "model_id": 2,
+            "name" : "Corvette",
+            "model": "",
+            "country" : "USA",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 11,
+            "model_id": 1,
+            "name" : "Taycan",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 11,
+            "model_id": 2,
+            "name" : "Panamera",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 11,
+            "model_id": 3,
+            "name" : "Cayman",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 12,
+            "model_id": 1,
+            "name" : "Challenger",
+            "model": "",
+            "country" : "USA",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 12,
+            "model_id": 2,
+            "name" : "Avenger",
+            "model": "",
+            "country" : "USA",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 12,
+            "model_id": 3,
+            "name" : "Hornet",
+            "model": "",
+            "country" : "USA",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 13,
+            "model_id": 1,
+            "name" : "Roma",
+            "model": "",
+            "country" : "Itali",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 13,
+            "model_id": 2,
+            "name" : "812",
+            "model": "",
+            "country" : "Itali",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 13,
+            "model_id": 3,
+            "name" : "F8",
+            "model": "",
+            "country" : "Itali",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 13,
+            "model_id": 4,
+            "name" : "296",
+            "model": "",
+            "country" : "Itali",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 14,
+            "model_id": 1,
+            "name" : "Wagoneer",
+            "model": "",
+            "country" : "USA",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 14,
+            "model_id": 2,
+            "name" : "Grand Cherokee",
+            "model": "",
+            "country" : "USA",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 14,
+            "model_id": 3,
+            "name" : "Wrangle",
+            "model": "",
+            "country" : "USA",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 14,
+            "model_id": 4,
+            "name" : "Renegade",
+            "model": "",
+            "country" : "USA",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 15,
+            "model_id": 1,
+            "name" : "BRZ",
+            "model": "",
+            "country" : "Japan",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 15,
+            "model_id": 2,
+            "name" : "Impreza",
+            "model": "",
+            "country" : "Japan",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 15,
+            "model_id": 3,
+            "name" : "Legacy",
+            "model": "",
+            "country" : "Japan",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 15,
+            "model_id": 4,
+            "name" : "Levorg",
+            "model": "",
+            "country" : "Japan",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 15,
+            "model_id": 5,
+            "name" : "Layback",
+            "model": "",
+            "country" : "Japan",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 16,
+            "model_id": 1,
+            "name" : "Chiron",
+            "model": "",
+            "country" : "Itali",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 16,
+            "model_id": 2,
+            "name" : "Veiron",
+            "model": "",
+            "country" : "Itali",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 16,
+            "model_id": 3,
+            "name" : "Divo",
+            "model": "",
+            "country" : "Itali",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 16,
+            "model_id": 4,
+            "name" : "La Voire Noire",
+            "model": "",
+            "country" : "Itali",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 17,
+            "model_id": 1,
+            "name" : "Tucson",
+            "model": "",
+            "country" : "South Korea",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 17,
+            "model_id": 2,
+            "name" : "Elantra",
+            "model": "",
+            "country" : "South Korea",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 17,
+            "model_id": 3,
+            "name" : "Santa Fe",
+            "model": "",
+            "country" : "South Korea",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 17,
+            "model_id": 4,
+            "name" : "Veloster",
+            "model": "",
+            "country" : "South Korea",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 18,
+            "model_id": 1,
+            "name" : "Tiggo-5",
+            "model": "",
+            "country" : "China",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 18,
+            "model_id": 2,
+            "name" : "Tiggo-7",
+            "model": "",
+            "country" : "China",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 18,
+            "model_id": 3,
+            "name" : "Arizo-5",
+            "model": "",
+            "country" : "China",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 18,
+            "model_id": 4,
+            "name" : "Arizo-7",
+            "model": "",
+            "country" : "China",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 19,
+            "model_id": 1,
+            "name" : "R8",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 19,
+            "model_id": 2,
+            "name" : "Q7",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 19,
+            "model_id": 3,
+            "name" : "A4",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 19,
+            "model_id": 4,
+            "name" : "Q8",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 19,
+            "model_id": 5,
+            "name" : "A6",
+            "model": "",
+            "country" : "Germany",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 20,
+            "model_id": 1,
+            "name" : "Model-S",
+            "model": "",
+            "country" : "USA",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
+        },
+        {
+            "brand_id": 20,
+            "model_id": 2,
+            "name" : "Model-Y",
+            "model": "",
+            "country" : "USA",
+            "description" : "",
+            "year" : 2020,
+            "hp" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
         }
     ]
-    
 }
