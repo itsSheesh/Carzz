@@ -1,80 +1,83 @@
-[
-    {
-        "brand_id": 1,
-        "model_id": 3,
-        "companyName" : "Toyota",
-        "carName" : "Supra",
-        "carModel": "mk5",
-        "nationality" : "Japan",
-        "description" : "",
-        "productYear" : 2020,
-        "horsePower" : 340,
-        "torqe" : 329,
-        "transmission" : "8-speed",
-        "topSpeed" : 262,
-        "engine" : "B48",
-        "size" : {
-            "width" : 1865,
-            "height" : 1290,
-            "lenght" : 4380
+{ 
+    "car" : [
+        {
+            "brand_id": 1,
+            "model_id": 3,
+            "companyName" : "Toyota",
+            "carName" : "Supra",
+            "carModel": "mk5",
+            "nationality" : "Japan",
+            "description" : "",
+            "productYear" : 2020,
+            "horsePower" : 340,
+            "torqe" : 329,
+            "transmission" : "8-speed",
+            "topSpeed" : 262,
+            "engine" : "B48",
+            "size" : {
+                "width" : 1865,
+                "height" : 1290,
+                "lenght" : 4380
+            },
+            "weight" : 1490
         },
-        "weight" : 1490
-    },
-    {
-        "companyName" : "",
-        "carName" : "",
-        "carModel": "",
-        "nationality" : "",
-        "description" : "",
-        "productYear" : 22,
-        "horsePower" : 333,
-        "torqe" : 315,
-        "transmission" : "",
-        "topSpeed" : 350,
-        "engine" : "",
-        "size" : {
-            "width" : 222,
-            "height" : 222,
-            "lenght" : 333
+        {
+            "companyName" : "",
+            "carName" : "",
+            "carModel": "",
+            "nationality" : "",
+            "description" : "",
+            "productYear" : 22,
+            "horsePower" : 333,
+            "torqe" : 315,
+            "transmission" : "",
+            "topSpeed" : 350,
+            "engine" : "",
+            "size" : {
+                "width" : 222,
+                "height" : 222,
+                "lenght" : 333
+            },
+            "weight" : 888
         },
-        "weight" : 888
-    },
-    {
-        "companyName" : "",
-        "carName" : "",
-        "carModel": "",
-        "nationality" : "",
-        "description" : "",
-        "productYear" : 22,
-        "horsePower" : 333,
-        "torqe" : 315,
-        "transmission" : "",
-        "topSpeed" : 350,
-        "engine" : "",
-        "size" : {
-            "width" : 222,
-            "height" : 222,
-            "lenght" : 333
+        {
+            "companyName" : "",
+            "carName" : "",
+            "carModel": "",
+            "nationality" : "",
+            "description" : "",
+            "productYear" : 22,
+            "horsePower" : 333,
+            "torqe" : 315,
+            "transmission" : "",
+            "topSpeed" : 350,
+            "engine" : "",
+            "size" : {
+                "width" : 222,
+                "height" : 222,
+                "lenght" : 333
+            },
+            "weight" : 888
         },
-        "weight" : 888
-    },
-    {
-        "companyName" : "",
-        "carName" : "",
-        "carModel": "",
-        "nationality" : "",
-        "description" : "",
-        "productYear" : 22,
-        "horsePower" : 333,
-        "torqe" : 315,
-        "transmission" : "",
-        "topSpeed" : 350,
-        "engine" : "",
-        "size" : {
-            "width" : 222,
-            "height" : 222,
-            "lenght" : 333
-        },
-        "weight" : 888
-    }
-]
+        {
+            "companyName" : "",
+            "carName" : "",
+            "carModel": "",
+            "nationality" : "",
+            "description" : "",
+            "productYear" : 22,
+            "horsePower" : 333,
+            "torqe" : 315,
+            "transmission" : "",
+            "topSpeed" : 350,
+            "engine" : "",
+            "size" : {
+                "width" : 222,
+                "height" : 222,
+                "lenght" : 333
+            },
+            "weight" : 888
+        }
+    ]
+    
+}
