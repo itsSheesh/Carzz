@@ -1,7 +1,7 @@
 // ========== components ========== \\
+import ModelsNav from '../ModelsNav'
 import Carousel from '../Carousel'
 import Details from '../Details'
-import ModelsNav from '../ModelsNav'
 
 const Landing:React.FC = ():JSX.Element => {
   return (

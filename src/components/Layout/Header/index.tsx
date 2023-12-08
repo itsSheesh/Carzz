@@ -1,4 +1,7 @@
+// ========== packages ========== \\
 import { useContext } from "react"
+
+// ========== components ========== \\
 import { Context } from "../../../context/AppContext"
 
 const Header:React.FC = ():JSX.Element => {

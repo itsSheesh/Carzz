@@ -5,8 +5,7 @@ const SearchIcon:React.FC = ():JSX.Element => {
         height="30"
         viewBox="0 0 94 94"
         fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        >
+        xmlns="http://www.w3.org/2000/svg">
         <path
             fillRule="evenodd"
             clipRule="evenodd"
@@ -23,8 +22,7 @@ const SearchIcon:React.FC = ():JSX.Element => {
             60.556L92.4949 86.1085C94.1109 87.7245 94.1109 90.3445
             92.4949 91.9605C90.8789 93.5764 88.2589 93.5764 86.643
             91.9605L61.0904 66.4079Z"
-            fill="black"
-        />
+            fill="black"/>
     </svg>
 
   )
