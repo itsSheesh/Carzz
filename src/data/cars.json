@@ -9,6 +9,7 @@
             "description" : "",
             "year" : 2020,
             "hp" : 340,
+            "color" : "red",
             "torqe" : 500,
             "transmission" : "8-speed",
             "topSpeed" : 270,
@@ -40,7 +41,6 @@
             },
             "weight" : 2360
         },
-        {"finished" : "true"},
         {
             "brand_id": 1,
             "model_id": 3,
@@ -49,37 +49,37 @@
             "country" : "Japan",
             "description" : "",
             "year" : 2023,
-            "hp" : 340,
-            "torqe" : 329,
+            "hp" : 203,
+            "torqe" : 184,
             "transmission" : "8-speed",
-            "topSpeed" : 262,
-            "engine" : "B48",
+            "topSpeed" : 185,
+            "engine" : "3.5L 2GR-FE",
             "size" : {
-                "width" : 1865,
-                "height" : 1290,
-                "lenght" : 4380
+                "width" : 1855,
+                "height" : 1685,
+                "lenght" : 4600
             },
-            "weight" : 1490
+            "weight" : 1590
         },
         {
             "brand_id": 1,
             "model_id": 4,
             "name" : "Hilux",
-            "model": "2023",
+            "model": "2024",
             "country" : "Japan",
             "description" : "",
-            "year" : 2023,
-            "hp" : 340,
-            "torqe" : 329,
-            "transmission" : "8-speed",
-            "topSpeed" : 262,
-            "engine" : "B48",
+            "year" : 2024,
+            "hp" : 201,
+            "torqe" : 500,
+            "transmission" : "6-speed",
+            "topSpeed" : 180,
+            "engine" : "2.8L",
             "size" : {
-                "width" : 1865,
-                "height" : 1290,
-                "lenght" : 4380
+                "width" : 1855,
+                "height" : 1815,
+                "lenght" : 5335
             },
-            "weight" : 1490
+            "weight" : 1600
         },
         {
             "brand_id": 2,
@@ -88,79 +88,80 @@
             "model": "R-34",
             "country" : "Japan",
             "description" : "",
-            "year" : 2020,
-            "hp" : 340,
-            "torqe" : 329,
-            "transmission" : "8-speed",
-            "topSpeed" : 262,
-            "engine" : "B48",
+            "year" : 2000,
+            "hp" : 400,
+            "torqe" : 391,
+            "transmission" : "6-speed",
+            "topSpeed" : 250,
+            "engine" : "2.6L",
             "size" : {
-                "width" : 1865,
-                "height" : 1290,
-                "lenght" : 4380
+                "width" : 1785,
+                "height" : 1360,
+                "lenght" : 4600
             },
-            "weight" : 1490
+            "weight" : 1560
         },
         {
             "brand_id": 2,
             "model_id": 2,
             "name" : "Maxima",
-            "model": "",
+            "model": "2023",
             "country" : "Japan",
             "description" : "",
-            "year" : 2020,
-            "hp" : 340,
-            "torqe" : 329,
-            "transmission" : "8-speed",
-            "topSpeed" : 262,
-            "engine" : "B48",
+            "year" : 2023,
+            "hp" : 300,
+            "torqe" : 261,
+            "transmission" : "6-speed",
+            "topSpeed" : 225,
+            "engine" : "3.5",
             "size" : {
-                "width" : 1865,
-                "height" : 1290,
-                "lenght" : 4380
+                "width" : 1900,
+                "height" : 1435,
+                "lenght" : 4897
             },
-            "weight" : 1490
+            "weight" : 2125
         },
         {
             "brand_id": 3,
             "model_id": 1,
-            "name" : "LX",
-            "model": "",
+            "name" : "LX600",
+            "model": "2024",
             "country" : "Japan",
             "description" : "",
-            "year" : 2020,
-            "hp" : 340,
-            "torqe" : 329,
-            "transmission" : "8-speed",
-            "topSpeed" : 262,
-            "engine" : "B48",
+            "year" : 2024,
+            "hp" : 409,
+            "torqe" : 650,
+            "transmission" : "10-speed",
+            "topSpeed" : 210,
+            "engine" : "3.4",
             "size" : {
-                "width" : 1865,
-                "height" : 1290,
-                "lenght" : 4380
+                "width" : 1989,
+                "height" : 1885,
+                "lenght" : 5096
             },
-            "weight" : 1490
+            "weight" : 3280
         },
         {
             "brand_id": 3,
             "model_id": 2,
-            "name" : "ES",
-            "model": "",
+            "name" : "ES350",
+            "model": "2024",
             "country" : "Japan",
             "description" : "",
-            "year" : 2020,
-            "hp" : 340,
-            "torqe" : 329,
+            "year" : 2024,
+            "hp" : 302,
+            "torqe" : 362,
             "transmission" : "8-speed",
             "topSpeed" : 262,
-            "engine" : "B48",
+            "engine" : "3.5",
             "size" : {
-                "width" : 1865,
-                "height" : 1290,
-                "lenght" : 4380
+                "width" : 1864,
+                "height" : 1445,
+                "lenght" : 4975
             },
-            "weight" : 1490
+            "weight" : 1655
         },
+        {"finishedCarUntilNow" : 8},
         {
             "brand_id": 4,
             "model_id": 1,
