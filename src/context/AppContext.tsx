@@ -15,7 +15,7 @@ const Context = createContext<ContextType>(initValue);
 interface IProps extends React.PropsWithChildren {}
 
 const AppContext: React.FC<IProps> = ({ children }): JSX.Element => {
-  const [sidebar, setSidebar] = useState(false);
+  const [sidebar, setSidebar] = useState(initValue.sidebar);
 
   const toggleShow = () => {
     setSidebar(!sidebar);

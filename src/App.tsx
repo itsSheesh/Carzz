@@ -1,9 +1,12 @@
 // ========== components ========== \\
-import HomePage from './page/Main';
-const App:React.FC = ():JSX.Element => {
+import AppContext from "./context/AppContext";
+import HomePage from "./page/Main";
+const App: React.FC = (): JSX.Element => {
   return (
-    <HomePage />     
+    <AppContext>
+      <HomePage />
+    </AppContext>
   );
-}
+};
 
 export default App;
