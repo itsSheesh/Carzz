@@ -1,4 +1,4 @@
-const GDetails:React.FC = ():JSX.Element => {
+const GeneralDetails:React.FC = ():JSX.Element => {
   return (
     <div className="flex text-white opacity-50 md:space-x-10 space-x-4">
         <div>
@@ -17,4 +17,4 @@ const GDetails:React.FC = ():JSX.Element => {
   )
 }
 
-export default GDetails
+export default GeneralDetails
