@@ -6,6 +6,7 @@ const LamborghiniLogo:React.FC = ():JSX.Element => {
     xmlns="http://www.w3.org/2000/svg"
 	viewBox="0 0 261.9 263.7"
     width="30px" height="30px">
+		<title>Lamborghini icon</title>
 <g id="Layer_2">
 </g>
 <g id="Layer_1">

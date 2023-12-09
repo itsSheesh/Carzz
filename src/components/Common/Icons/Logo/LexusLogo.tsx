@@ -6,6 +6,7 @@ const LexusLogo:React.FC = ():JSX.Element => {
         viewBox="0 0 32 32"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
+          <title>Lexus icon</title>
         <path
         fill-rule="evenodd"
         clip-rule="evenodd"

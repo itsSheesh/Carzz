@@ -69,6 +69,7 @@ const NissanLogo:React.FC = ():JSX.Element => {
         <stop offset="0.611"/>
         </radialGradient>
         </defs>
+        <title>Nissan icon</title>
     </svg>
   )
 }

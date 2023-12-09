@@ -34,95 +34,97 @@ const Sidebar:React.FC = ():JSX.Element => {
 
   return (
     <div
-      className={`flex flex-col fixed w-full md:w-[350px] overflow-y-auto bg-white right-0 top-0 h-full opacity-95 shadow-lg ease-in-out duration-200
+      className={`flex flex-col fixed w-full md:w-[350px] bg-white right-0 top-0 h-full opacity-95 shadow-lg ease-in-out duration-200
          ${sidebar ? "translate-x-0 " : "translate-x-full"}`}
     >
       <div className="bg-gray-200 flex justify-between py-5 px-4">
         <span className="cursor-pointer" onClick={toggleShow}>
           <RightArrow />
         </span>
-        <span>Select A Car, Get Details</span>
+        <span>Car Brands</span>
       </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <ToyotaLogo/ >
-        <h1 className="ml-2 text-lg font-bold">Toyota</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <NissanLogo />
-        <h1 className="ml-2 text-lg font-bold">Nissan</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <LexusLogo />
-        <h1 className="ml-2 text-lg font-bold">Lexus</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <HondaLogo />
-        <h1 className="ml-2 text-lg font-bold">Honda</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <BMWLogo />
-        <h1 className="ml-2 text-lg font-bold">BMW</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <MercedesLogo />
-        <h1 className="ml-2 text-lg font-bold">Mercedes</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <PeugeotLogo />
-        <h1 className="ml-2 text-lg font-bold">Peugeot</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <LamborghiniLogo />
-        <h1 className="ml-2 text-lg font-bold">Lamborghini</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <VolkswagenLogo />
-        <h1 className="ml-2 text-lg font-bold">Volkswagen</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <ChevroletLogo />
-        <h1 className="ml-2 text-lg font-bold">Chevrolet</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <PorscheLogo />
-        <h1 className="ml-2 text-lg font-bold">Porsche</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <DodgeLogo />
-        <h1 className="ml-2 text-lg font-bold">Dodge</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <FerrariLogo />
-        <h1 className="ml-2 text-lg font-bold">Ferrari</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <JeepLogo />
-        <h1 className="ml-2 text-lg font-bold">Jeep</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <SubaruLogo />
-        <h1 className="ml-2 text-lg font-bold">Subaru</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <BugattiLogo />
-        <h1 className="ml-2 text-lg font-bold">Bugatti</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <HyundaiLogo />
-        <h1 className="ml-2 text-lg font-bold">Hyundai</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <BMWLogo />
-        <h1 className="ml-2 text-lg font-bold">Cherry</h1>
-      </div>
-      <div className="flex mx-5 mt-5 items-center">
-        <AudiLogo />
-        <h1 className="ml-2 text-lg font-bold">Audi</h1>
-      </div>
-      <div className="flex mx-5 mt-5 mb-5 items-center">
-        <TeslaLogo />
-        <h1 className="ml-2 text-lg font-bold">Tesla</h1>
-      </div>
+      <ul className="overflow-y-auto">
+        <li className="flex px-5 pt-5 items-center">
+          <ToyotaLogo />
+          <h1 className="ml-2 text-lg font-bold">Toyota</h1>
+        </li>
+        <li className="flex px-5 py-3 items-center">
+          <NissanLogo />
+          <h1 className="ml-2 text-lg font-bold">Nissan</h1>
+        </li>
+        <li className="flex px-5 py-3 items-center bg-violet-400">
+          <LexusLogo />
+          <h1 className="ml-2 text-lg font-bold">Lexus</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <HondaLogo />
+          <h1 className="ml-2 text-lg font-bold">Honda</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <BMWLogo />
+          <h1 className="ml-2 text-lg font-bold">BMW</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <MercedesLogo />
+          <h1 className="ml-2 text-lg font-bold">Mercedes</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <PeugeotLogo />
+          <h1 className="ml-2 text-lg font-bold">Peugeot</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <LamborghiniLogo />
+          <h1 className="ml-2 text-lg font-bold">Lamborghini</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <VolkswagenLogo />
+          <h1 className="ml-2 text-lg font-bold">Volkswagen</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <ChevroletLogo />
+          <h1 className="ml-2 text-lg font-bold">Chevrolet</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <PorscheLogo />
+          <h1 className="ml-2 text-lg font-bold">Porsche</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <DodgeLogo />
+          <h1 className="ml-2 text-lg font-bold">Dodge</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <FerrariLogo />
+          <h1 className="ml-2 text-lg font-bold">Ferrari</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <JeepLogo />
+          <h1 className="ml-2 text-lg font-bold">Jeep</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <SubaruLogo />
+          <h1 className="ml-2 text-lg font-bold">Subaru</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <BugattiLogo />
+          <h1 className="ml-2 text-lg font-bold">Bugatti</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <HyundaiLogo />
+          <h1 className="ml-2 text-lg font-bold">Hyundai</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <BMWLogo />
+          <h1 className="ml-2 text-lg font-bold">Cherry</h1>
+        </li>
+        <li className="flex px-5 pt-5 items-center">
+          <AudiLogo />
+          <h1 className="ml-2 text-lg font-bold">Audi</h1>
+        </li>
+        <li className="flex px-5 pt-5 pb-5 items-center">
+          <TeslaLogo />
+          <h1 className="ml-2 text-lg font-bold">Tesla</h1>
+        </li>
+      </ul>
     </div>
   );
 };
