@@ -17,7 +17,7 @@ const Sidebar: React.FC = (): JSX.Element => {
         <span className="cursor-pointer" onClick={toggleShow}>
           <RightArrow />
         </span>
-        <span>Car Brands</span>
+        <span className="pr-3">Car Brands</span>
       </div>
       <List />
     </div>
