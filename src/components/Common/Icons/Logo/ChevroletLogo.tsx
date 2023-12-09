@@ -6,9 +6,8 @@ const ChevroletLogo:React.FC = ():JSX.Element => {
         id="Layer_1"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 2500 2500"
-        width="30px"
-        height="30px">
-          <title>Chevrolet icon</title>
+        width="20px"
+        height="20px">
         <path
         d="M2434.7,986.8l-703.3,0.1c-17.9,0-29.6-5.3-29.6-30l0-104.4c0-30.1-16.2-46-45.6-46H851c-30.1,0-45.6,17-45.6,45.7l0,104.4
         c0,22-10.4,30-29.7,30l-460.9,0.1c-35.3,0-55.9,16.8-66.5,38.9L23.8,1464.2c-2.9,5.6-4.6,12.1-4.6,18.7c0,17.3,11.3,39.8,42.8,39.8

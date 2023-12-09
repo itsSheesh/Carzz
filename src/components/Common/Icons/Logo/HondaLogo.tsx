@@ -6,9 +6,9 @@ const HondaLogo:React.FC = ():JSX.Element => {
         id="Layer_1"
         xmlns="http://www.w3.org/2000/svg" 
 	    viewBox="0 0 44.6 44.6"
-        width="30px"
-        height="30px">
-        <title>honda icon</title>
+        width="20px"
+        height="20px">
+        <title>honda-logo</title>
 <g>
 	<path d="M32.6,7.2c-1,4.6-1.4,6.7-2.3,10s-1.4,6.1-2.5,7.6c-0.8,1.1-2.1,1.8-3.5,1.9c-1.3,0.1-2.7,0.1-4,0
 		c-1.4-0.1-2.7-0.8-3.5-1.9c-1.1-1.4-1.7-4.4-2.5-7.6S13,11.8,12,7.2l-1.5,0.1c-0.6,0-1.1,0.1-1.6,0.2c0,0,0.6,9.4,0.9,13.4

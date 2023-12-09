@@ -6,9 +6,8 @@ const JeepLogo:React.FC = ():JSX.Element => {
     id="Layer_1"
     xmlns="http://www.w3.org/2000/svg"
 	viewBox="0 0 2500 2500"
-    width="30px"
-    height="30px">
-		<title>Jeep icon</title>
+    width="20px"
+    height="20px">
 <g>
 	<path d="M911.4,925c-79.7,0-156.9,25.4-208.9,76.2c-52,50.7-78.2,120.9-78.2,210.6c0,189.6,140.2,287.7,303,287.7
 		c106.3,0,218.2-58.8,261.7-169.6h-158.6c-11.1,35.1-71.6,53.5-101.3,53.5c-36.5,0-67.2-11.8-91.8-35.5

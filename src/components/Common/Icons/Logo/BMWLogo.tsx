@@ -2,12 +2,11 @@ const BMW:React.FC = ():JSX.Element => {
   return (
     <svg
         fill="#000000"
-        width="30px"
-        height="30px"
+        width="20px"
+        height="20px"
         viewBox="0 0 24 24"
         role="img"
         xmlns="http://www.w3.org/2000/svg">
-          <title>BMW icon</title>
         <path
         d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373
         12-12S18.627 0 12 0zm0 .78C18.196.78 23.219 5.803

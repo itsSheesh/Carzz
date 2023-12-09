@@ -5,7 +5,6 @@ import Main from "../../layout/main";
 
 const HomePage: React.FC = (): JSX.Element => {
 
-  
   return (
       <Main>
         <Sidebar />

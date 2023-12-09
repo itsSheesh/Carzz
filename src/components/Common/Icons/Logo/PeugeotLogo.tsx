@@ -2,8 +2,8 @@ const PeugeotLogo:React.FC = ():JSX.Element => {
   return (
     <svg
         fill="#000000"
-        width="30px"
-        height="30px"
+        width="20px"
+        height="20px"
         viewBox="0 0 24 24"
         role="img"
         xmlns="http://www.w3.org/2000/svg">
