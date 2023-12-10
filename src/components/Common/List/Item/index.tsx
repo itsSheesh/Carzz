@@ -1,8 +1,8 @@
 // ========== packages ========== \\
-import { useState, useContext } from "react";
+import { useState } from "react";
 // ========== components ========== \\
 import { models } from "../../../../data/models";
-import { Context } from "../../../../context/AppContext";
+import SubItem from "../subItem";
 
 interface IBrand {
     id: number,
@@ -17,9 +17,8 @@ interface IModel {
 }
 
 const Item: React.FC<IBrand> = ({ id, name, logo }): JSX.Element => {
-    const [selectedModels, setSelectedModels] = useState<IModel[]>();
+    const [selectedModels, setSelectedModels] = useState<IModel[]>([]);
     const [open, setOpen] = useState<boolean>(false);
-    const { toggleShow } = useContext(Context);
 
     const handleFetchModels = (brandID: number) => {
         const selectedModels = models.filter((model) => {
@@ -29,30 +28,13 @@ const Item: React.FC<IBrand> = ({ id, name, logo }): JSX.Element => {
         setSelectedModels(selectedModels[0].models)
     }
 
-    const handleSelectModel = (modelID: number) => {
-        toggleShow()
-        console.log(modelID)
-    }
-
     return (
         <div key={id} className="flex flex-col mx-5 mt-5" onClick={() => handleFetchModels(id)}>
             <div className="flex cursor-pointer">
-                <img width={20} src={logo} alt="" />
+                <img width={20} src={logo} alt={name} />
                 <h1 className="ml-2 font-bold">{name}</h1>
             </div>
-
-            {open ?
-                <div className="flex flex-col mt-4 gap-2 indent-8 cursor-pointer">
-                    {open && selectedModels?.map((model) => {
-                        return (
-                            <div key={model.id} onClick={() => handleSelectModel(model.id)}>
-                                {model.name}
-                            </div>
-                        )
-                    })}
-                </div>
-                : null
-            }
+            {open && <SubItem models={selectedModels} />}
         </div>
     );
 };
