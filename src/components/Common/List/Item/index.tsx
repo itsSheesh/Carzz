@@ -29,7 +29,7 @@ const Item: React.FC<IBrand> = ({ id, name, logo }): JSX.Element => {
     }
 
     return (
-        <div key={id} className="flex flex-col mx-5 mt-5" onClick={() => handleFetchModels(id)}>
+        <div data-testid="brand-item" key={id} className="flex flex-col mx-5 mt-5" onClick={() => handleFetchModels(id)}>
             <div className="flex cursor-pointer">
                 <img width={20} src={logo} alt={name} />
                 <h1 className="ml-2 font-bold">{name}</h1>
