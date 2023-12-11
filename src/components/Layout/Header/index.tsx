@@ -17,7 +17,7 @@ const Header:React.FC = ():JSX.Element => {
             placeholder="Brand name..."
           />
         </div>
-        <div className="cursor-pointer text-lg font-bold text-white order-3" onClick={toggleShow}>Brands</div>
+        <div data-testid="siedbar-btn" className="cursor-pointer text-lg font-bold text-white order-3" onClick={toggleShow}>Brands</div>
     </header>
   )
 }

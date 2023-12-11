@@ -22,7 +22,7 @@ const SubItem: React.FC<IProps> = ({ models }): JSX.Element => {
   };
 
   return (
-    <div className="flex flex-col mt-4 gap-2 indent-8 cursor-pointer">
+    <div className="flex flex-col mt-4 gap-2 indent-8">
       {models?.map((model: IModel) => {
         return (
           <Item
