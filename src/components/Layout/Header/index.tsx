@@ -15,7 +15,7 @@ const Header: React.FC = (): JSX.Element => {
   const handleSearch = (e: ChangeEvent<HTMLInputElement>) => {
     setQuery(e.target.value);
     const filterd = cars.car.filter((car) => {
-      return car.name?.includes(e.target.value);
+      return car.name?.toLowerCase().includes(e.target.value.toLowerCase());
     });
     setSearchResult(filterd);
   };
