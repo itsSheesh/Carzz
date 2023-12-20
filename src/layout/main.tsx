@@ -1,16 +1,16 @@
 // ========== packages ========== \\
-import React, { ReactNode } from "react"
-import Header from "../components/Layout/Header"
-import Footer from "../components/Layout/Footer"
+import React, { ReactNode } from "react";
+import Header from "../components/Layout/Header";
+import Footer from "../components/Layout/Footer";
 
-const MainLayout: React.FC<{ children: ReactNode}> = ( { children } ) => {
+const MainLayout: React.FC<{ children: ReactNode }> = ({ children }) => {
   return (
     <main className="h-screen flex flex-col">
-        <Header />
-          {children}
-        <Footer />
+      <Header />
+      {children}
+      <Footer />
     </main>
-  )
-}
+  );
+};
 
-export default MainLayout
+export default MainLayout;

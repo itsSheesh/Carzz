@@ -40,7 +40,11 @@ const Header: React.FC = (): JSX.Element => {
             <div className="absolute left-0 right-0 bg-white shadow-md rounded-md mt-1 p-2 max-h-80 overflow-auto">
               {searchResult.length > 0 ? (
                 searchResult?.map((car: ICar) => {
-                  return <p className="cursor-pointer mb-1 hover:bg-red-50 p-2 rounded-md">{car.name}</p>;
+                  return (
+                    <p className="cursor-pointer mb-1 hover:bg-red-50 p-2 rounded-md">
+                      {car.name}
+                    </p>
+                  );
                 })
               ) : (
                 <p className="p-2">No Matches Found!</p>

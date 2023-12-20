@@ -1,9 +1,9 @@
-const Carousel:React.FC = ():JSX.Element => {
+const Carousel: React.FC = (): JSX.Element => {
   return (
     <div className="flex justify-center items-center">
-        Carousel comes here...
+      Carousel comes here...
     </div>
-  )
-}
+  );
+};
 
-export default Carousel
+export default Carousel;

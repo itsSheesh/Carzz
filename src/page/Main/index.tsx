@@ -4,12 +4,11 @@ import Sidebar from "../../components/sidebar";
 import Main from "../../layout/main";
 
 const HomePage: React.FC = (): JSX.Element => {
-
   return (
-      <Main>
-        <Sidebar />
-        <Landing />
-      </Main>
+    <Main>
+      <Sidebar />
+      <Landing />
+    </Main>
   );
 };
 

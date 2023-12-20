@@ -4,7 +4,7 @@ interface IProps extends React.PropsWithChildren {
   inputValue?: string | number;
   name: string;
   type: "text" | "number" | "email" | "password" | "tel" | "hidden" | "file";
-  placeholder?: string; 
+  placeholder?: string;
   hidden?: boolean;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   className?: string;
@@ -16,13 +16,12 @@ const Input: React.FC<IProps> = ({
   hidden = false,
   inputValue,
   name,
-  type, 
+  type,
   placeholder,
   onChange,
   className,
-  children
+  children,
 }): JSX.Element => {
-
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     onChange(e);
   };
