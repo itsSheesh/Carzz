@@ -1,10 +1,13 @@
 // ========== components ========== \\
 import AppContext from "./context/AppContext";
 import HomePage from "./page/Main";
+import ModelContextProvider from "./context/ModelContext";
 const App: React.FC = (): JSX.Element => {
   return (
     <AppContext>
-      <HomePage />
+      <ModelContextProvider>
+        <HomePage />
+      </ModelContextProvider>
     </AppContext>
   );
 };

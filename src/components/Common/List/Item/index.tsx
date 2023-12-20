@@ -1,9 +1,9 @@
 // ========== packages ========== \\
-import { useState } from "react";
+import { useState, useContext } from "react";
 // ========== components ========== \\
 import { models } from "../../../../data/models";
 import SubItem from "../subItem";
-
+import { ModelsContext } from "../../../../context/ModelContext";
 interface IBrand {
     id: number,
     name: string,
@@ -19,6 +19,7 @@ interface IModel {
 const Item: React.FC<IBrand> = ({ id, name, logo }): JSX.Element => {
     const [selectedModels, setSelectedModels] = useState<IModel[]>([]);
     const [open, setOpen] = useState<boolean>(false);
+    const { handleModel } = useContext(ModelsContext)
 
     const handleFetchModels = (brandID: number) => {
         const selectedModels = models.filter((model) => {
@@ -26,6 +27,7 @@ const Item: React.FC<IBrand> = ({ id, name, logo }): JSX.Element => {
         })
         setOpen(!open)
         setSelectedModels(selectedModels[0].models)
+        handleModel(selectedModels[0].models)
     }
 
     return (

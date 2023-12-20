@@ -7,6 +7,8 @@ import { Context } from "../../context/AppContext";
 import RightArrow from "../Common/Icons/RightArrow";
 import List from "../Common/List";
 import { brands } from "../../data/brands";
+import { ModelsContext } from "../../context/ModelContext";
+
 
 const Sidebar: React.FC = (): JSX.Element => {
   const { sidebar, toggleShow } = useContext(Context);

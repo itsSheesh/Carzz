@@ -12,7 +12,7 @@
         "color": "red",
         "torqe": 500,
         "transmission": "8-speed",
-        "topSpeed": 270,
+        "topSpeed": 400,
         "engine": "B48",
         "size": {
           "width": 1865,
