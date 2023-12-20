@@ -1,5 +1,7 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // ========== packages ========== \\
-import { useContext } from "react";
+import { useContext, useState } from "react";
+
 // ========== components ========== \\
 import { Context } from "../../context/AppContext";
 import RightArrow from "../Common/Icons/RightArrow";
@@ -8,6 +10,11 @@ import { brands } from "../../data/brands";
 
 const Sidebar: React.FC = (): JSX.Element => {
   const { sidebar, toggleShow } = useContext(Context);
+  const [selectedBrand, setSelectedBrand] = useState <string| null>(null)
+  
+  const handleBrandSelect = (brandName: string) => {
+    setSelectedBrand(brandName)
+  }
 
   return (
     // <>
@@ -23,7 +30,7 @@ const Sidebar: React.FC = (): JSX.Element => {
             </span>
             <span className="pr-3">Car Brands</span>
           </div>
-          <List brands={brands} />
+          <List brands={brands} onBrandSelect={handleBrandSelect} />
         </div>
       // )}
   //   </>
