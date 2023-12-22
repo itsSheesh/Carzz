@@ -10,7 +10,7 @@ const initValue = {
   toggleShow: () => {},
 };
 
-const Context = createContext<ContextType>(initValue);
+export const Context = createContext<ContextType>(initValue);
 
 interface IProps extends React.PropsWithChildren {}
 
@@ -29,4 +29,3 @@ const AppContext: React.FC<IProps> = ({ children }): JSX.Element => {
 };
 
 export default AppContext;
-export { Context };

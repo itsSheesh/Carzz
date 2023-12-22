@@ -6,11 +6,15 @@ import { ICar } from "../../../interfaces/car";
 // ========== components ========== \\
 import { Context } from "../../../context/AppContext";
 import Input from "../../Common/Form/Input";
+import { DarkModeContext } from '../../../context/DarkModeContext'
+
 
 const Header: React.FC = (): JSX.Element => {
   const [query, setQuery] = useState<string>("");
   const [searchResult, setSearchResult] = useState<any>([]);
   const { toggleShow } = useContext(Context);
+  const { handleDark } = useContext(DarkModeContext)
+  const { isDark } = useContext(DarkModeContext)
 
   const handleSearch = (e: ChangeEvent<HTMLInputElement>) => {
     setQuery(e.target.value);
@@ -21,7 +25,7 @@ const Header: React.FC = (): JSX.Element => {
   };
 
   return (
-    <header className="flex flex-col md:flex-row md:h-16 py-4 items-center md:px-20 px-4 bg-[#5E46A3] md:gap-40 gap-2">
+    <header className={`flex flex-col md:flex-row md:h-16 py-4 items-center md:px-20 px-4 ${isDark ? 'bg-black' : 'bg-[#5E46A3]'}  md:gap-40 gap-2`}>
       <div className="cursor-pointer font-RubikBubbles text-2xl text-white order-1">
         Carzz
       </div>
@@ -60,6 +64,7 @@ const Header: React.FC = (): JSX.Element => {
       >
         Brands
       </div>
+      <button className={`${isDark ? 'text-white' : ''} absolute left-0`} onClick={() => handleDark()}>Dark</button>
     </header>
   );
 };

@@ -2,13 +2,16 @@
 import AppContext from "./context/AppContext";
 import HomePage from "./page/Main";
 import ModelContextProvider from "./context/ModelContext";
+import DarkModeContextProvider from "./context/DarkModeContext";
 const App: React.FC = (): JSX.Element => {
   return (
-    <AppContext>
-      <ModelContextProvider>
-        <HomePage />
-      </ModelContextProvider>
-    </AppContext>
+    <DarkModeContextProvider>
+      <AppContext>
+        <ModelContextProvider>
+          <HomePage />
+        </ModelContextProvider>
+      </AppContext>
+    </DarkModeContextProvider>
   );
 };
 
