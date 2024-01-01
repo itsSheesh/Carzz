@@ -1,5 +1,6 @@
 // ========== packages ========== \\
 import { useState, useContext } from "react";
+import { Link } from "react-router-dom";
 
 // ========== components and contextes ========== \\
 import { ModelsContext } from "../../context/ModelContext";
@@ -23,16 +24,18 @@ const ModelsNav: React.FC = (): JSX.Element => {
             key={model.id}
             className="flex m-3 sm:m-6 md:m-10 cursor-pointer select-none"
           >
-            <h1
-              className={` text-lg text-white ${
-                activeStates[model.id]
-                  ? "font-bold border-b-2 border-white text-xl"
-                  : ""
-              }`}
-              onClick={() => handleModelHover(model.id)}
-            >
-              {model.name}
-            </h1>
+            <Link to={`/${model.id}`}>
+              <h1
+                className={` text-lg text-white ${
+                  activeStates[model.id]
+                    ? "font-bold border-b-2 border-white text-xl"
+                    : ""
+                }`}
+                onClick={() => handleModelHover(model.id)}
+              >
+                {model.name}
+              </h1>
+            </Link>
           </div>
         );
       })}
