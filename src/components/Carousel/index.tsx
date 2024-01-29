@@ -5,10 +5,14 @@ import { useContext } from "react";
 import { DarkModeContext } from "../../context/DarkModeContext";
 
 const Carousel: React.FC = (): JSX.Element => {
-  const { isDark } = useContext(DarkModeContext)
-  
+  const { isDark } = useContext(DarkModeContext);
+
   return (
-    <div className={`${isDark ? 'text-white' : ''}   flex justify-center items-center`}>
+    <div
+      className={`${
+        isDark ? "text-white" : ""
+      }   flex justify-center items-center`}
+    >
       Carousel comes here...
     </div>
   );

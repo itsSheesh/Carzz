@@ -1,10 +1,10 @@
 // ========== components ========== \\
 import Item from "./Item";
 
-interface ListProps {
-  brands: any[];
-  onBrandSelect: (brandName: string) => void;
-}
+// ========== interfaces ========== \\
+import { ListProps } from "../../../interfaces/listProps";
+
+
 const List: React.FC<ListProps> = ({ brands, onBrandSelect }): JSX.Element => {
   return (
     <div className="overflow-y-auto">

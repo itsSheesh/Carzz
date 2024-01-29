@@ -1,12 +1,11 @@
 // ========== packages ========== \\
 import { useState, useContext } from "react";
-import { Link } from "react-router-dom";
 
 // ========== components and contextes ========== \\
 import { ModelsContext } from "../../context/ModelContext";
 
 const ModelsNav: React.FC = (): JSX.Element => {
-  const { models } = useContext(ModelsContext);
+  const { models, handleModelId } = useContext(ModelsContext);
   const [activeStates, setActiveStates] = useState<{ [key: number]: boolean }>(
     {}
   );
@@ -15,6 +14,7 @@ const ModelsNav: React.FC = (): JSX.Element => {
     setActiveStates((prevStates) => ({
       [id]: !prevStates[id],
     }));
+    handleModelId(id);
   };
   return (
     <div className="h-[80px] flex items-center justify-center">
@@ -24,18 +24,16 @@ const ModelsNav: React.FC = (): JSX.Element => {
             key={model.id}
             className="flex m-3 sm:m-6 md:m-10 cursor-pointer select-none"
           >
-            <Link to={`/${model.id}`}>
-              <h1
-                className={` text-lg text-white ${
-                  activeStates[model.id]
-                    ? "font-bold border-b-2 border-white text-xl"
-                    : ""
-                }`}
-                onClick={() => handleModelHover(model.id)}
-              >
-                {model.name}
-              </h1>
-            </Link>
+            <h1
+              className={` text-lg text-white ${
+                activeStates[model.id]
+                  ? "font-bold border-b-2 border-white text-xl"
+                  : ""
+              }`}
+              onClick={() => handleModelHover(model.id)}
+            >
+              {model.name}
+            </h1>
           </div>
         );
       })}

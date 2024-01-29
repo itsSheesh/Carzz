@@ -1,5 +1,5 @@
 {
-  "car": [
+  "cars": [
     {
       "brand_id": 1,
       "model_id": 1,
@@ -10,14 +10,14 @@
       "year": 2020,
       "hp": 340,
       "color": "red",
-      "torqe": 500,
+      "torque": 500,
       "transmission": "8-speed",
       "topSpeed": 400,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -30,14 +30,14 @@
       "description": "",
       "year": 2021,
       "hp": 415,
-      "torqe": 650,
+      "torque": 650,
       "transmission": "6-speed",
       "topSpeed": 200,
       "engine": "3.5i V6",
       "size": {
         "width": 1980,
         "height": 1925,
-        "lenght": 4950
+        "length": 4950
       },
       "weight": 2360
     },
@@ -50,14 +50,14 @@
       "description": "",
       "year": 2023,
       "hp": 203,
-      "torqe": 184,
+      "torque": 184,
       "transmission": "8-speed",
       "topSpeed": 185,
       "engine": "3.5L 2GR-FE",
       "size": {
         "width": 1855,
         "height": 1685,
-        "lenght": 4600
+        "length": 4600
       },
       "weight": 1590
     },
@@ -70,14 +70,14 @@
       "description": "",
       "year": 2024,
       "hp": 201,
-      "torqe": 500,
+      "torque": 500,
       "transmission": "6-speed",
       "topSpeed": 180,
       "engine": "2.8L",
       "size": {
         "width": 1855,
         "height": 1815,
-        "lenght": 5335
+        "length": 5335
       },
       "weight": 1600
     },
@@ -90,14 +90,14 @@
       "description": "",
       "year": 2000,
       "hp": 400,
-      "torqe": 391,
+      "torque": 391,
       "transmission": "6-speed",
       "topSpeed": 250,
       "engine": "2.6L",
       "size": {
         "width": 1785,
         "height": 1360,
-        "lenght": 4600
+        "length": 4600
       },
       "weight": 1560
     },
@@ -110,14 +110,14 @@
       "description": "",
       "year": 2023,
       "hp": 300,
-      "torqe": 261,
+      "torque": 261,
       "transmission": "6-speed",
       "topSpeed": 225,
       "engine": "3.5",
       "size": {
         "width": 1900,
         "height": 1435,
-        "lenght": 4897
+        "length": 4897
       },
       "weight": 2125
     },
@@ -130,14 +130,14 @@
       "description": "",
       "year": 2024,
       "hp": 409,
-      "torqe": 650,
+      "torque": 650,
       "transmission": "10-speed",
       "topSpeed": 210,
       "engine": "3.4",
       "size": {
         "width": 1989,
         "height": 1885,
-        "lenght": 5096
+        "length": 5096
       },
       "weight": 3280
     },
@@ -150,19 +150,16 @@
       "description": "",
       "year": 2024,
       "hp": 302,
-      "torqe": 362,
+      "torque": 362,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "3.5",
       "size": {
         "width": 1864,
         "height": 1445,
-        "lenght": 4975
+        "length": 4975
       },
       "weight": 1655
-    },
-    {
-      "finishedCarUntilNow": 8
     },
     {
       "brand_id": 4,
@@ -173,14 +170,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -193,14 +190,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -213,14 +210,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -233,14 +230,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -253,14 +250,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -273,14 +270,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -293,14 +290,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -313,14 +310,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -333,14 +330,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -353,14 +350,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -373,14 +370,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -393,14 +390,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -413,14 +410,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -433,14 +430,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -453,14 +450,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -469,18 +466,18 @@
       "model_id": 1,
       "name": "Aventador",
       "model": "",
-      "country": "Itali",
+      "country": "Italy",
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -489,18 +486,18 @@
       "model_id": 2,
       "name": "Huracan",
       "model": "",
-      "country": "Itali",
+      "country": "Italy",
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -513,14 +510,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -533,14 +530,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -553,14 +550,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -573,14 +570,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -593,14 +590,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -613,14 +610,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -633,14 +630,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -653,14 +650,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -673,14 +670,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -693,14 +690,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -709,18 +706,18 @@
       "model_id": 1,
       "name": "Roma",
       "model": "",
-      "country": "Itali",
+      "country": "Italy",
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -729,18 +726,18 @@
       "model_id": 2,
       "name": "812",
       "model": "",
-      "country": "Itali",
+      "country": "Italy",
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -749,18 +746,18 @@
       "model_id": 3,
       "name": "F8",
       "model": "",
-      "country": "Itali",
+      "country": "Italy",
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -769,18 +766,18 @@
       "model_id": 4,
       "name": "296",
       "model": "",
-      "country": "Itali",
+      "country": "Italy",
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -793,14 +790,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -813,14 +810,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -833,14 +830,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -853,14 +850,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -873,14 +870,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -893,14 +890,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -913,14 +910,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -933,14 +930,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -953,14 +950,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -969,18 +966,18 @@
       "model_id": 1,
       "name": "Chiron",
       "model": "",
-      "country": "Itali",
+      "country": "Italy",
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -989,18 +986,18 @@
       "model_id": 2,
       "name": "Veiron",
       "model": "",
-      "country": "Itali",
+      "country": "Italy",
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1009,18 +1006,18 @@
       "model_id": 3,
       "name": "Divo",
       "model": "",
-      "country": "Itali",
+      "country": "Italy",
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1029,18 +1026,18 @@
       "model_id": 4,
       "name": "La Voire Noire",
       "model": "",
-      "country": "Itali",
+      "country": "ItalY",
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1053,14 +1050,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1073,14 +1070,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1093,14 +1090,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1113,14 +1110,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1133,14 +1130,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1153,14 +1150,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1173,14 +1170,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1193,14 +1190,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1213,14 +1210,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1233,14 +1230,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1253,14 +1250,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1273,14 +1270,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1293,14 +1290,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1313,14 +1310,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     },
@@ -1333,14 +1330,14 @@
       "description": "",
       "year": 2020,
       "hp": 340,
-      "torqe": 329,
+      "torque": 329,
       "transmission": "8-speed",
       "topSpeed": 262,
       "engine": "B48",
       "size": {
         "width": 1865,
         "height": 1290,
-        "lenght": 4380
+        "length": 4380
       },
       "weight": 1490
     }

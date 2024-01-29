@@ -2,10 +2,14 @@
 // ========== packages ========== \\
 import { useContext, useState } from "react";
 
-// ========== components ========== \\
+// ========== components & contexes ========== \\
 import { Context } from "../../context/AppContext";
-import RightArrow from "../Common/Icons/RightArrow";
 import List from "../Common/List";
+
+// ========== icons ========== \\
+import RightArrow from "../Common/Icons/RightArrow";
+
+// ========== data ========== \\
 import { brands } from "../../data/brands";
 
 const Sidebar: React.FC = (): JSX.Element => {

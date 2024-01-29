@@ -3,7 +3,6 @@
 import { useState, useContext } from "react";
 
 // ========== components & contexes ========== \\
-import { BrandContext } from "../../../../context/BrandContext";
 import { ModelsContext } from "../../../../context/ModelContext";
 import { Context } from "../../../../context/AppContext";
 
@@ -30,7 +29,7 @@ const Item: React.FC<IBrand> = ({ id, name, logo }): JSX.Element => {
   const [open, setOpen] = useState<boolean>(false);
   const { toggleShow } = useContext(Context);
 
-  const { handleModel } = useContext(ModelsContext);
+  const { handleModel,handleBrandId } = useContext(ModelsContext);
 
   const handleFetchModels = (brandID: number) => {
     const selectedModels = models.filter((model) => {
@@ -40,7 +39,7 @@ const Item: React.FC<IBrand> = ({ id, name, logo }): JSX.Element => {
     setOpen(!open);
     setSelectedModels(selectedModels[0].models);
     handleModel(selectedModels[0].models);
-
+    handleBrandId(brandID)
   };      // what we should do here exactly
 
   return (

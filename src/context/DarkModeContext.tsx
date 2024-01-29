@@ -14,7 +14,9 @@ export const DarkModeContext = createContext<DarkProp>(initValue);
 
 interface IProps extends React.PropsWithChildren {}
 
-const DarkModeContextProvider: React.FC<IProps> = ({ children }): JSX.Element => {
+const DarkModeContextProvider: React.FC<IProps> = ({
+  children,
+}): JSX.Element => {
   const [isDark, setIsDark] = useState<boolean>(false);
 
   const handleDark = () => {

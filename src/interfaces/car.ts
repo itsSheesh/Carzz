@@ -7,15 +7,14 @@ export interface ICar {
   description: string;
   year: number;
   hp: number;
-  color: string;
-  torqe: number;
+  torque: number;
   transmission: String;
   topSpeed: number;
   engine: string;
   size: {
     width: number;
     height: number;
-    lenght: number;
+    length: number;
   };
   weight: number;
 }
